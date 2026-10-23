@@ -1,0 +1,24 @@
+{
+  "machine": "Darwin arm64, Spark 4.0.1, local[*]",
+  "months": "2024-01..2024-06",
+  "silver_rows": 19673717,
+  "runs_per_case": 7,
+  "partition_pruning": {
+    "unpartitioned_shuffled_s": 0.082,
+    "unpartitioned_time_ordered_s": 0.036,
+    "partitioned_s": 0.024,
+    "speedup_vs_shuffled": 3.4,
+    "speedup_vs_time_ordered": 1.5,
+    "partition_discovery_s": 0.172
+  },
+  "join_strategy": {
+    "sort_merge_s": 7.017,
+    "broadcast_s": 4.09,
+    "speedup": 1.7
+  },
+  "caching": {
+    "recompute_s": 7.231,
+    "cached_s": 10.21,
+    "speedup": 0.7
+  }
+}

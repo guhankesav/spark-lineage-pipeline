@@ -1,0 +1,14 @@
+{
+  "months": "2024-01..2024-06",
+  "raw_rows": 20332093,
+  "silver_rows": 19673717,
+  "rejected_by_rule": {
+    "outside_month": 39,
+    "negative_amount": 292849,
+    "non_positive_duration": 6177,
+    "invalid_distance": 359311
+  },
+  "silver_seconds": 11.6,
+  "gold_daily_zone_stats_rows": 41351,
+  "gold_hourly_demand_rows": 4367
+}
